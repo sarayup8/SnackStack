@@ -79,7 +79,8 @@ struct HomeView: View {
         do {
             randomRecipe = try await service.getRandomRecipe()
         } catch {
-            errorMessage = error.localizedDescription
+            // API is down — pick a random one from mock data
+            randomRecipe = mockDetails.randomElement()
         }
         isLoading = false
     }
