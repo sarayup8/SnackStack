@@ -2,7 +2,7 @@
 //  Snack_StackApp.swift
 //  Snack Stack
 //
-//  Created by Sarayu Pesala on 4/21/26.
+//  Created by Sarayu Pesala on 4/10/26.
 //
 
 import SwiftUI
